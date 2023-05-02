@@ -1,0 +1,56 @@
+.main {
+  justify-content: space-between;
+}
+.main_title-section {
+  max-width: 362px;
+}
+.main_title {
+  font-family: Inter-Regular, serif;
+  font-weight: 400;
+}
+.main_company-name {
+  font-family: Inter-Bold, serif;
+  font-weight: 900;
+}
+.main_description {
+  font-family: Montserrat, serif;
+  color: #E4E5EA;
+  font-size: 18px;
+  line-height: 22px;
+}
+.main_offer-section {
+  max-width: 290px;
+  text-align: end;
+}
+.main_offer-title {
+  margin-bottom: 40px;
+}
+.main_offer-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: end;
+  margin-bottom: 60px;
+}
+.main_offer-list > h3 {
+  font-family: Inter-Medium, serif;
+  margin-bottom: 6px;
+}
+.main_offer-list > p {
+  font-family: Montserrat, serif;
+  font-size: 16px;
+  line-height: 19px;
+}
+.main_offer-free {
+  font-family: Inter-Bold, serif;
+  font-weight: 900;
+}
+.main_consultation-btn {
+  width: 262px;
+  height: 61px;
+  background: #4077F3;
+  color: #E4E5EA;
+  border: none;
+}
+
+/*# sourceMappingURL=main.css.map */

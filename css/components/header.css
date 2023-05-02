@@ -1,0 +1,21 @@
+.header {
+  margin-top: 50px;
+  margin-bottom: 90px;
+}
+.header_logo {
+  margin-right: 27px;
+}
+.header_items {
+  gap: 30px;
+  font-size: 16px;
+}
+.header_items-wrapper {
+  margin-right: 130px;
+  margin-top: 5px;
+}
+.header_contacts {
+  gap: 30px;
+  margin-top: 5px;
+}
+
+/*# sourceMappingURL=header.css.map */
