@@ -40,6 +40,8 @@
 }
 @media screen and (max-width: 600px) {
   .header {
+    margin: 20px;
+    justify-content: start;
     text-transform: uppercase;
     font-size: 13px;
   }

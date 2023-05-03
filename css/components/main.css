@@ -61,6 +61,7 @@
     background-image: url("../../images/mobile-bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    margin-bottom: 40px;
   }
   .main_wrapper {
     flex-wrap: wrap;
@@ -76,12 +77,17 @@
     margin-bottom: 45px;
   }
   .main_offer-list {
-    justify-content: start;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
   }
 }
 @media screen and (max-width: 600px) {
   .main {
     margin-bottom: 0;
+  }
+  .main_wrapper {
+    justify-content: start;
   }
   .main_title {
     font-size: 36px;
@@ -91,6 +97,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
+    margin-bottom: 0;
   }
   .main_offer-list > li > h3 {
     font-size: 13px;
