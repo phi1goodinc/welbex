@@ -1,5 +1,6 @@
 .main {
   justify-content: space-between;
+  margin-bottom: 100px;
 }
 .main_title-section {
   max-width: 362px;
