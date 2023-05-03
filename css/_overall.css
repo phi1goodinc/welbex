@@ -2,7 +2,7 @@ body {
     font-family: Inter-Regular, serif;
     height: 100%;
     color: #E4E5EA;
-    background: #0E1014 url("/images/bg.svg") left top /1000px 575px no-repeat;
+    background: #0E1014;
 }
 
 h1 {
@@ -26,7 +26,7 @@ a {
 }
 
 button {
-    font-family: Inter-Medium;
+    font-family: Inter-Medium, serif;
 }
 
 .flex {
@@ -37,4 +37,16 @@ button {
     background: linear-gradient(92deg, #FCB045 27.14%, #FF3F78 121.36%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+@media screen and (max-width: 1200px) {
+    .site-container {
+        margin: 0 20px;
+    }
+}
+
+@media screen and (min-width: 750px) {
+    body {
+        background: #0E1014 url("/images/bg.svg") left top /1000px 575px no-repeat;
+    }
 }

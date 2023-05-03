@@ -18,4 +18,38 @@
   margin-top: 5px;
 }
 
+@media screen and (max-width: 1200px) {
+  .header {
+    justify-content: space-between;
+  }
+  .header_items-wrapper {
+    margin-right: 0;
+  }
+  .header_contacts {
+    display: none;
+  }
+}
+@media screen and (max-width: 750px) {
+  .header {
+    margin: 20px 0;
+    justify-content: center;
+  }
+  .header_logo {
+    display: none;
+  }
+}
+@media screen and (max-width: 600px) {
+  .header {
+    text-transform: uppercase;
+    font-size: 13px;
+  }
+  .header_items {
+    gap: 10px;
+    font-size: 13px;
+  }
+  .header_items > li:last-child {
+    display: none;
+  }
+}
+
 /*# sourceMappingURL=header.css.map */
